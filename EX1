@@ -1,0 +1,126 @@
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_1 (x):
+...      print(x+1)
+...      '''
+...      (int) -> int
+...      this function receive a number and return it by +1
+...      examples:
+...      >>>EX1_1(0)
+...      1
+...      
+...      '''
+
+
+
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_2(base,height):
+...      print('the area of the triangle is:')
+...      print(base*height/2)
+...      '''
+...      (int)-> int
+...      this function will calculate the area of the triangle whit the formula (base*height/2) .
+...      example:
+...      EX1_2(3,2)
+...      3
+...      '''
+... 
+...      
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_3(side1,side2):
+...      if side1>0 and side2>0:
+...          print('maximum range of third edge= {0}'.format(side1+side2-1))
+...      else:
+...          print(Error)
+...          '''
+...          (int)->int
+...          this function receives the size of the two sides of the triangle and then returns the size of the third side.
+...          example:
+...          >>>EX1_3(8,10)
+...          17
+...          '''
+... 
+...          
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_4(a):
+...      if a==1:
+...          print("Monday")
+...      if a==2:
+...          print("Tuesday")
+...      if a==3:
+...          print("Wednesday")
+...      if a==4:
+...          print("Thursday")
+...      if a==5:
+...          print("Friday")
+...      if a==6:
+...          print("Sarurday")
+...      if a==7:
+...          print("Sunday")
+...      else:
+...          print("Error")
+...      '''
+...      (int)->str
+...      this function will receive a number and show the related day.
+...      examples:
+...      >>>EX1_4(2)
+...      Tuesday
+...      '''
+... 
+...      
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_5 (x):
+...      if x<1:
+...          print("infant")
+...      if x>1 and x<13:
+...          print("child")
+...      if x>=13 and x<20:
+...          print("teenager")
+...      if x>=20:
+...          print("adult")
+...      '''
+...      (int)->str
+...      this function receive your age then return the stage of life.
+...      example:
+...      >>>EX1_5(0.5)
+...      infant
+...      '''
+... 
+...      
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def EX1_6(x):
+...      if x==1:
+...          print('I')
+...      if x==2:
+...          print('II')
+...      if x==3:
+...          print('III')
+...      if x==4:
+...          print('IV')
+...      if x==5:
+...          print('V')
+...      if x==6:
+...          print('VI')
+...      if x==7:
+...          print('VII')
+...      if x==8:
+...          print('VIII')
+...      if x==9:
+...          print('IX')
+...      if x==10:
+...          print('X')
+...      else:print('Error')
+...      '''
+...      (int)->str
+...      this function will receive a number between 1 to 10 then return the "Roman" number.
+...      examples:
+...      >>>EX1_6(3):
+...      'III'
+...      '''
+... 
+...      
